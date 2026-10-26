@@ -1,0 +1,26 @@
+{
+    "python.testing.pytestArgs": [
+    "."
+],
+"python.testing.pytestPath": "/opt/venv/bin/pytest",
+"python.testing.unittestEnabled": false,
+"python.testing.pytestEnabled": true,
+"chat.disableAIFeatures": false,
+"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "json": false,
+    "yaml": false,
+    "xml": false,
+    "bat": false,
+    "makefile": false,
+    "dockerfile": false,
+    "git-commit": false,
+    "git-rebase": false,
+    "python": true,
+    "shellscript": true
+},
+"github.copilot.inlineSuggest.enable": false,
+}
