@@ -16,20 +16,20 @@
 
 
 
-# label="2.1 Simulate and_gate.sv"
+# label="1.1 Simulate and_gate.sv"
 products/and_gate.rtl.json: \
 	and_gate.sv \
 
-# label="2.2 Edit and_gate.sv" type=".edit"
+# label="1.2 Edit and_gate.sv" type=".edit"
 and_gate.sv.edit:
 
 
-# label="2.3 and_gate testbench verification"
+# label="1.3 and_gate testbench verification"
 products/and_gate_tb.vcd: \
 	and_gate.sv \
 	and_gate_tb.sv
 
-# label="4.3 and_gate iCE40 bitstream"
+# label="1.4 and_gate iCE40 bitstream"
 products/and_gate.bin: \
 	and_gate.sv \
 	top.sv \

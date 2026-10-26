@@ -44,8 +44,8 @@ rebuild:
 # used to hold the files generated for a target.
 
 
-# label="00.00 Review reademe.md" type=".edit"
-readme.md.edit:
+# # label="00.00 Review reademe.md" type=".edit"
+# readme.md.edit:
 
-# label="00.01 Edit questions.md" type=".edit"
-questions.md.edit:
+# # label="00.01 Edit questions.md" type=".edit"
+# questions.md.edit:
